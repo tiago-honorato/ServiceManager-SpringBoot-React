@@ -61,6 +61,13 @@ public class ServicoService {
 		
 	}
 	
+	public void cancelarServico(Long id) {
+		
+		Servico servico = repository.findById(id).get();
+		servico.setStatus("cancelado");
+		repository.save(servico);
+	}
+	
 	public void excluir(Long id) {
 		
 		Servico servico = repository.findById(id).get();
