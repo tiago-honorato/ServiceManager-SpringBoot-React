@@ -31,38 +31,63 @@ backservico/
 │   │   ├── java/
 │   │   │   └── com/
 │   │   │       └── servico/
-│   │   │           ├── backservico/
-│   │   │           │   ├── controller/
-│   │   │           │   │   └── ServicoController.java
-│   │   │           │   ├── entity/
-│   │   │           │   │   └── Servico.java
-│   │   │           │   ├── repository/
-│   │   │           │   │   └── ServicoRepository.java
-│   │   │           │   └── service/
-│   │   │           │       └── ServicoService.java
+│   │   │           └── backservico/
+│   │   │               ├── controller/
+│   │   │               │   └── ServicoController.java
+│   │   │               ├── entity/
+│   │   │               │   └── Servico.java
+│   │   │               ├── repository/
+│   │   │               │   └── ServicoRepository.java
+│   │   │               ├── service/
+│   │   │               │   └── ServicoService.java
+│   │   │               └── BackservicoApplication.java
 │   │   └── resources/
+│   │       ├── static/
+│   │       ├── templates/
 │   │       └── application.properties
 │   └── test/
 │       └── java/
-│           └── com/
-│               └── servico/
-│                   └── backservico/
+├── .mvn/
+├── .settings/
+├── src/
+├── target/
+├── .classpath
+├── .gitignore
+├── .project
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
 └── pom.xml
 ```
 
 ### Frontend
 
 ```plaintext
-frontend/
+frontservico/
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
-│   ├── components/
-│   │   ├── Servico.js
+│   ├── servico/
 │   │   ├── Servico.css
-│   ├── App.js
+│   │   └── Servico.jsx
 │   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
 │   ├── index.js
-│   └── index.css
-└── package.json
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ## Pré-requisitos
