@@ -2,6 +2,8 @@
 
 Aplicação para a gestão de serviços utilizando backend Java Spring Boot e frontend React. Demonstra como realizar operações de CRUD (Create, Read, Update, Delete) e gerenciar serviços, incluindo o controle de pagamentos e status de cancelamento.
 
+<img src="https://github.com/tiago-honorato/ServiceManager-SpringBoot-React/assets/85461392/da7ab345-78ec-4f88-a8e1-af8779fbd1e6">
+
 ## Funcionalidades 📊
 - Cadastro de serviços
 - Listagem de todos os serviços
