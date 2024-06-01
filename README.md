@@ -103,8 +103,8 @@ frontservico/
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/tiago-honorato/GerenciadorServicosSpringReact.git
-    cd GerenciadorServicosSpringReact
+    git clone https://github.com/tiago-honorato/ServiceManager-SpringBoot-React.git
+    cd ServiceManager-SpringBoot-React
     ```
 
 2. Configure o banco de dados MySQL no arquivo `application.properties`:
