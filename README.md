@@ -109,7 +109,9 @@ frontservico/
     cd ServiceManager-SpringBoot-React
     ```
 
-2. Configure o banco de dados MySQL no arquivo `application.properties`:
+2. Execute o arquivo `create-database.sql` para criar o schema "sistemaservicos".
+
+3. Configure o banco de dados MySQL no arquivo `application.properties`:
 
     ```properties
     spring.datasource.url=jdbc:mysql://localhost:3306/sistemaservicos
@@ -121,7 +123,7 @@ frontservico/
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
     ```
 
-3. Execute a aplicação:
+4. Execute a aplicação:
 
     ```bash
     ./mvnw spring-boot:run
